@@ -303,3 +303,41 @@ footer a { text-decoration: none; }
   .intro, .work, .contact { padding: 64px 0; }
   footer { flex-direction: column; }
 }
+.fa-page {
+    font-family: 'Estedad', sans-serif;
+    font-weight: 300;
+}
+
+.fa-page h1,
+.fa-page h2,
+.fa-page h3 {
+    font-family: 'Estedad', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.fa-page h1 {
+    font-weight: 500;
+}
+
+.fa-page .lead,
+.fa-page p {
+    font-weight: 300;
+    line-height: 2;
+}
+
+.fa-page nav a,
+.fa-page .btn,
+.fa-page .lang-switch {
+    font-weight: 400;
+}
+
+.fa-page .section-label,
+.fa-page .eyebrow {
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.fa-page .hero h1 {
+    font-size: clamp(3.8rem, 8vw, 7rem);
+    line-height: 1.05;
+}
