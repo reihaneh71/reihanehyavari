@@ -135,10 +135,11 @@ nav a:hover { color: var(--accent); }
   right: 8%;
   bottom: 0;
   object-fit: cover;
-  object-position: 58% 24%;
+  object-position: center top;
   border-radius: 180px 180px 28px 28px;
   z-index: 2;
-  box-shadow: 0 30px 80px rgba(117, 73, 38, .16);
+  display: block;
+  opacity: 1;
 }
 .shape { position: absolute; display: block; border-radius: 999px; }
 .shape-one {
